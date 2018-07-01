@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         mBottomButton = findViewById(R.id.buttonBottom);
 
 
-
         // TODO: Steps 6, 7, & 9 - Set a listener on the top button:
 
         mTopButton.setOnClickListener(new View.OnClickListener() {
@@ -44,11 +43,8 @@ public class MainActivity extends AppCompatActivity {
                     mStoryTextView.setText(R.string.T6_End);
                     mTopButton.setVisibility(View.GONE);
                     mBottomButton.setVisibility(View.GONE);
-
                 }
-
             }
-
         });
 
 
@@ -71,10 +67,8 @@ public class MainActivity extends AppCompatActivity {
                     mTopButton.setVisibility(View.GONE);
                     mBottomButton.setVisibility(View.GONE);
                 }
-
             }
         });
-
 
     }
 }
